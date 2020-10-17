@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Comida de Animales</title>
+        <script src="../src/index.js" defer></script>
+        <link href="../assets/styles.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Comida de Animales</h1>
+        <div class="resultados-div">
+        <div class="div-deslizador">
+            <div class="herramienta">
+                    <div class="deslizador">
+                        <h2>¿Cuanto pesa tu perro?</h2>
+                        <input type="range" min="0" max="100" value="0" id="myRange" onchange="rangeSlider(this.value)" onmousemove="rangeSlider(this.value)" onchange="selectValue()"/>
+                        <p>Peso: <span id="value"></span></p> 
+                    </div>
+                    <div class="options-range">
+                        <select id="selectId" onchange="selectValue()">
+                            <option value="1" name="1" class="optionSelect">1</option>
+                            <option value="2" name="2" class="optionSelect">2</option>
+                            <option value="3" name="3" class="optionSelect">3</option>
+                        </select>
+                    </div>
+                        <button id="btn">Clicka Aqui</button>
+                        <div id="resultados">  </div>
+              </div>
+        </div>
+        </div>
+    </body>
+</html>

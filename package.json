@@ -1,0 +1,16 @@
+{
+  "name": "ComidaAnimales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Manuel <manu2001802@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1"
+  }
+}
